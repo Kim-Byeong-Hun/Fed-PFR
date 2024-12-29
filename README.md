@@ -22,3 +22,24 @@ Intelligent CCTV systems are highly effective in monitoring pedestrian and vehic
 The overall structure of the proposed FL-based fall recognition model is as follows: First, at the beginning of each round $t$, client $c$ downloads the global model weights $w_{t-1}^s$ of the previous round. Then, each client trains a local model and uploads the trained weights $w_t^{c_i}$ ($i=1, 2, \ldots, n$) to the server. The server uses the FedAvg algorithm to aggregate the global model weights $w_t^s$. Each local model consists of a network that recognizes pedestrian falls (see local model, right in the figure).
 
 This repository contains demo code for implementing the system. The dataset can be downloaded from the site [Link](https://sites.google.com/up.edu.mx/har-up/).
+
+## System Requirements
+- **Operating System**: Ubuntu 22.04.3 LTS
+- **CPU**: 12th Gen Intel(R) Core(TM) i7-12700F
+- **GPU**: NVIDIA GeForce RTX 4070 (12GB VRAM)
+- **System Memory (RAM)**: 32GB
+
+## How to run it
+
+### Preparation
+First, clone the repository
+```bash
+git clone https://github.com/Kim-Byeong-Hun/Fed-PFR.git
+```
+Then download the required packages.
+```bash
+pip install -r requirements.txt
+```
+
+## Reference
+- [YOLOv8](https://github.com/ultralytics/ultralytics)
