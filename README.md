@@ -29,9 +29,9 @@ This repository contains demo code for implementing the system. The dataset can 
 - **GPU**: NVIDIA GeForce RTX 4070 (12GB VRAM)
 - **System Memory (RAM)**: 32GB
 
-## How to run it
+## Usage
 
-### Preparation
+### Requirements
 First, clone the repository
 ```bash
 git clone https://github.com/Kim-Byeong-Hun/Fed-PFR.git
@@ -40,6 +40,13 @@ Then download the required packages.
 ```bash
 pip install -r requirements.txt
 ```
+### Preparation
+First, download the dataset from [Link](https://sites.google.com/up.edu.mx/har-up/).
+
+The dataset folder should be saved in the following format.
+
+### Pre-processing
+
 
 ## Reference
 - [YOLOv8](https://github.com/ultralytics/ultralytics)
