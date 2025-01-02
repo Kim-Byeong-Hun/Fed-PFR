@@ -6,10 +6,10 @@ Federated Learning-based Road Surveillance System in Distributed CCTV Environmen
 **Figure 1: Concept of Federated Learning**
 
 The figure demonstrates the core concept of federated learning in a distributed CCTV environment:
-- Local Training: Each CCTV node processes local video data and trains a model using spatio-temporal attention mechanisms without sharing raw data.
-- Federated Aggregation: The local models periodically send updated parameters to a central server for aggregation.
-- Global Model: The server builds a global model by combining the parameters, enabling collaborative learning across all nodes.
-- Privacy Preservation: This approach ensures data privacy by keeping sensitive video data on local devices while benefiting from collective intelligence.
+- **Local Training**: Each CCTV node processes local video data and trains a model using spatio-temporal attention mechanisms without sharing raw data.
+- **Federated Aggregation**: The local models periodically send updated parameters to a central server for aggregation.
+- **Global Model**: The server builds a global model by combining the parameters, enabling collaborative learning across all nodes.
+- **Privacy Preservation**: This approach ensures data privacy by keeping sensitive video data on local devices while benefiting from collective intelligence.
 
 This architecture is designed to address the challenges of scalability, real-time performance, and data privacy in pedestrian fall detection systems.
 
