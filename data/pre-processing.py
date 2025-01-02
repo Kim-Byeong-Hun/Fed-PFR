@@ -2,7 +2,7 @@ import os
 import cv2
 import argparse
 from ultralytics import YOLO
-from utils.utils import (
+from data.utils import (
     create_keypoint_heatmap,
     create_bbox_keypoint_heatmap,
     adjust_bbox_scale,
