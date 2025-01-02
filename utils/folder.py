@@ -68,10 +68,14 @@ def main():
         10: 'Jumping',
         11: 'Laying'
     }
-
-    base_dir = './UP-FALL'
-    output_dir = './UP-FALL-output'
-    upfall_dataset(base_dir, output_dir, label_mapping)
+    
+    parser = argparse.ArgumentParser(description="Process pose data from UP-FALL dataset.")
+    parser.add_argument('--base_folder', type=str, required=True, help="Path to the base folder.")
+    parser.add_argument('--output_folder', type=str, required=True, help="Path to the output folder.")
+    
+    args = parser.parse_args()
+    
+    upfall_dataset(args.base_folder, args.output_folder, label_mapping)
 
 if __name__ == "__main__":
     main()
