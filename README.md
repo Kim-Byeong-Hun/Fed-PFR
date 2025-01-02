@@ -120,7 +120,7 @@ Parameter Descriptions:
 
 ### Result
 
-#### Performance Comparison of Aggregation Algorithms
+#### Performance Comparison of Federated Learning Algorithms
 
 The following table shows the performance comparison of different federated learning algorithms under two scenarios:
 
@@ -135,7 +135,7 @@ The following table shows the performance comparison of different federated lear
 
 Scenario 1: Binary, Scenario 2: Multi
 
-#### Results of Centralized and Federated Learning Methods
+#### Results of Centralized and Federated Learning Approaches
 
 The following table compares the performance of centralized and federated learning methods under two scenarios:
 
